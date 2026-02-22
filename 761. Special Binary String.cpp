@@ -22,7 +22,7 @@ public:
             }
         }
         
-        sort(substrings.begin(), substrings.end(), greater<string>());
+        sort(substrings.begin(), substrings.end(), greater<string>());          
         
         string result;
         for (string &str : substrings) {
