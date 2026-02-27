@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
 
+
 void recursion(int k)
 {
     int count = 0;
