@@ -18,7 +18,6 @@ public:
     }
 };
 
-
 class Solution {
 public:
     int solve(int n, vector<int>& dp) {
@@ -33,5 +32,17 @@ public:
     int fib(int n) {
         vector<int> dp(n + 1, -1);
         return solve(n, dp);
+    }
+};
+
+class Solution {
+public:
+    int fib(int n) {
+        if (n <= 1)
+        return n;
+
+
+
+        return fib(n - 1) + fib(n - 2);
     }
 };
